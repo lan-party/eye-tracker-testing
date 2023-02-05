@@ -13,7 +13,7 @@ window.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
 window.setAttribute(Qt.WA_TranslucentBackground)
 
 label = QLabel(window)
-label.setPixmap(QPixmap('C:\\Users\\dell\\Pictures\\cursor.png'))
+label.setPixmap(QPixmap('cursor.png'))
 
 def update_position():
     mouse_x, mouse_y = pyautogui.position()
